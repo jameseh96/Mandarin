@@ -29,7 +29,7 @@ public class SurviveObjective extends Objective {
      */
     @Override
     public void update(float delta) {
-        if (timer >= (20)) {
+        if (timer >= (120)) {
             status = ObjectiveStatus.COMPLETED;
         } else {
             this.timer += delta;
